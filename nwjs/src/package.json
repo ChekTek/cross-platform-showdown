@@ -1,0 +1,21 @@
+{
+	"name": "NWJS",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"window": {
+		"title": "NWJS",
+		"icon": "assets/IconTemplate.png",
+		"width": 800,
+		"height": 600,
+		"minWidth": 800,
+		"minHeight": 600,
+		"position": "center",
+		"toolbar": true
+	}
+}
