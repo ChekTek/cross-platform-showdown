@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Hello World!</title>
+		<link href="src/index.css" rel="stylesheet" />
+		<script src="src/index.js" defer></script>
+	</head>
+	<body>
+		<div id="app-container">
+			<div id="list">
+				<ul>
+					<li draggable="true">Dog</li>
+					<li draggable="true">Cat</li>
+					<li draggable="true">Bear</li>
+					<li draggable="true">Fish</li>
+					<li draggable="true">Lizard</li>
+				</ul>
+			</div>
+			<div id="canvas">
+				<ul id="drop-zone" dropzone="true"></ul>
+			</div>
+			<div id="web" style="display:flex"> 
+				<iframe
+					style="display: flex; flex-grow: 1"
+					src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+				>
+				</iframe>
+			</div>
+		</div>
+	</body>
+</html>
