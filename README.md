@@ -1,6 +1,6 @@
 # cross-platform-showdown
 
-A repo for comparing different cross platform tools for building desktop applications.
+A repo for comparing different cross platform tools used to build desktop applications.
 
 ## App requirements
 
